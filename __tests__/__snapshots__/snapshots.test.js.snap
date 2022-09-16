@@ -1,0 +1,212 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button renders correctly 1`] = `
+<View
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    {
+      "alignItems": "center",
+      "alignSelf": "center",
+      "backgroundColor": "#2F66F6",
+      "borderRadius": undefined,
+      "height": 80.03999999999999,
+      "justifyContent": "center",
+      "opacity": 1,
+      "width": 675,
+    }
+  }
+>
+  <Text
+    style={
+      {
+        "color": "#FFFFFF",
+        "fontSize": undefined,
+        "fontWeight": "bold",
+      }
+    }
+  >
+    Hello
+  </Text>
+</View>
+`;
+
+exports[`Header renders correctly 1`] = `
+<View
+  style={
+    {
+      "paddingBottom": undefined,
+    }
+  }
+>
+  <View
+    style={
+      {
+        "alignItems": "center",
+        "alignSelf": "center",
+        "backgroundColor": "#F8F8FF",
+        "elevation": 5,
+        "flexDirection": "row",
+        "height": NaN,
+        "justifyContent": "center",
+        "paddingHorizontal": undefined,
+        "position": "relative",
+        "shadowOffset": {
+          "height": 1.5,
+          "width": 0,
+        },
+        "shadowOpacity": 0.2,
+        "shadowRadius": 1.5,
+        "width": undefined,
+      }
+    }
+  >
+    <View
+      style={
+        {
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "width": undefined,
+        }
+      }
+    >
+      <View
+        accessible={true}
+        collapsable={false}
+        focusable={false}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "alignItems": "center",
+            "justifyContent": "center",
+            "opacity": 1,
+          }
+        }
+      >
+        <Image
+          resizeMode="contain"
+          source="Back.png"
+        />
+      </View>
+      <Text
+        style={
+          {
+            "fontSize": undefined,
+            "fontWeight": "bold",
+          }
+        }
+      >
+        Hello
+      </Text>
+      <View
+        accessible={true}
+        collapsable={false}
+        focusable={false}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "opacity": 1,
+          }
+        }
+      >
+        <Image
+          resizeMode="contain"
+          source="Info_light.png"
+        />
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Shadowed Child renders correctly 1`] = `
+<View
+  style={
+    {
+      "alignItems": "center",
+      "flex": 0.4,
+      "flexDirection": "row",
+    }
+  }
+>
+  <View
+    style={
+      {
+        "justifyContent": "center",
+        "paddingHorizontal": 10,
+      }
+    }
+  >
+    <Text
+      style={
+        {
+          "color": "#696F8C",
+          "fontSize": undefined,
+          "fontWeight": "400",
+        }
+      }
+    >
+      Bitcoin BTC
+    </Text>
+    <Text
+      style={
+        {
+          "color": "black",
+          "fontSize": undefined,
+          "fontWeight": "400",
+          "marginTop": 2,
+        }
+      }
+    >
+      0.040141
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`Shadowed Component renders correctly 1`] = `
+<View
+  style={
+    [
+      {
+        "borderRadius": 14,
+        "elevation": 5,
+        "flexDirection": "row",
+        "padding": undefined,
+        "shadowColor": "black",
+        "shadowOffset": {
+          "height": 4,
+          "width": 4,
+        },
+        "shadowOpacity": 0.2,
+        "shadowRadius": 2,
+      },
+      {
+        "backgroundColor": "#FFFFFF",
+        "height": undefined,
+        "width": "100%",
+      },
+    ]
+  }
+/>
+`;
